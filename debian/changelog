@@ -1,0 +1,5 @@
+django-guardian (1.1.1-0~humbug1) wheezy; urgency=low
+
+  * source package automatically created by stdeb 0.6.0+git
+
+ -- Luke Faraone <lfaraone@humbughq.com>  Fri, 21 Jun 2013 16:51:50 -0400

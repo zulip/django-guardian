@@ -1,0 +1,13 @@
+Source: django-guardian
+Maintainer: Humbug Server Operations <devel@humbughq.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-django-guardian
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Implementation of per object permissions for Django 1.2+
+ django-guardian is implementation of per object permissions as
+ authorization backend which is supported since Django 1.2.
