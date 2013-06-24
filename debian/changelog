@@ -1,3 +1,10 @@
+django-guardian (1.1.1-0~humbug2) wheezy; urgency=low
+
+  * Include patch for disabling anonymous users. See:
+    https://github.com/lukaszb/django-guardian/pull/150
+
+ -- Luke Faraone <lfaraone@humbughq.com>  Mon, 24 Jun 2013 14:00:59 -0400
+
 django-guardian (1.1.1-0~humbug1) wheezy; urgency=low
 
   * source package automatically created by stdeb 0.6.0+git
