@@ -1,3 +1,9 @@
+django-guardian (1.1.1-0~humbug3) wheezy; urgency=low
+
+  * Apply an upstream patch for 1.6 compat.
+
+ -- Luke Faraone <lfaraone@zulip.com>  Thu, 07 Nov 2013 19:53:59 -0500
+
 django-guardian (1.1.1-0~humbug2) wheezy; urgency=low
 
   * Include patch for disabling anonymous users. See:
