@@ -1,0 +1,12 @@
+Index: django-guardian-1.1.1/docs/conf.py
+===================================================================
+--- django-guardian-1.1.1.orig/docs/conf.py	2014-01-30 08:34:08.000000000 +0900
++++ django-guardian-1.1.1/docs/conf.py	2014-01-30 08:42:46.713767885 +0900
+@@ -21,6 +21,7 @@
+ os.environ['DJANGO_SETTINGS_MODULE'] = 'guardian.testsettings'
+ ANONYMOUS_USER_ID = -1 # Required by guardian
+ guardian = __import__('guardian')
++from guardian.admin import GuardedModelAdmin
+ 
+ # -- General configuration -----------------------------------------------------
+ 

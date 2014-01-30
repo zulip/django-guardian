@@ -1,18 +1,20 @@
-django-guardian (1.1.1-0~humbug3) wheezy; urgency=low
+django-guardian (1.1.1-2) unstable; urgency=medium
 
-  * Apply an upstream patch for 1.6 compat.
+  * Fixed: Installs benchmarks and example_project python packages
+    (Closes: #737002) 
+    - Thanks to report Michael Fladischer <FladischerMichael@fladi.at>.
+  * debian/control:
+    - Update Standards-Version to 3.9.5.
+    - Append quilt to Build-Depends.
+  * Change to DEP3 style header
+    - debian/patches/append_uncompressed_js_libraries.patch
 
- -- Luke Faraone <lfaraone@zulip.com>  Thu, 07 Nov 2013 19:53:59 -0500
+ -- Kouhei Maeda <mkouhei@palmtb.net>  Thu, 30 Jan 2014 19:36:25 +0900
 
-django-guardian (1.1.1-0~humbug2) wheezy; urgency=low
+django-guardian (1.1.1-1) unstable; urgency=low
 
-  * Include patch for disabling anonymous users. See:
-    https://github.com/lukaszb/django-guardian/pull/150
+  * Initial release (Closes: #724989)
+  * debian/patches:
+    - append_uncompressed_js_libraries.patch
 
- -- Luke Faraone <lfaraone@humbughq.com>  Mon, 24 Jun 2013 14:00:59 -0400
-
-django-guardian (1.1.1-0~humbug1) wheezy; urgency=low
-
-  * source package automatically created by stdeb 0.6.0+git
-
- -- Luke Faraone <lfaraone@humbughq.com>  Fri, 21 Jun 2013 16:51:50 -0400
+ -- Kouhei Maeda <mkouhei@palmtb.net>  Mon, 30 Sep 2013 18:03:37 +0900

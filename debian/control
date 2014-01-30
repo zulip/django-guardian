@@ -1,13 +1,40 @@
 Source: django-guardian
-Maintainer: Humbug Server Operations <devel@humbughq.com>
 Section: python
 Priority: optional
-Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
-Standards-Version: 3.9.1
+Maintainer: Kouhei Maeda <mkouhei@palmtb.net>
+Build-Depends: debhelper (>= 8.0.0), python-all, python-setuptools, python-django (>= 1.2), python-sphinx, python-mock (>= 0.7.2), quilt
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.6
+Homepage: http://github.com/lukaszb/django-guardian
 
 Package: python-django-guardian
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
-Description: Implementation of per object permissions for Django 1.2+
- django-guardian is implementation of per object permissions as
- authorization backend which is supported since Django 1.2.
+Provides: ${python:Provides}
+Depends: ${python:Depends}, ${misc:Depends}, python-django (>= 1.2)
+Suggests: python-django-guardian-doc
+Description: per object permissions of django
+ Implementation of per object permissions as authorization backend which is
+ supported since Django 1.2. It provides features as followings;
+  - Object permissions for Django_
+  - AnonymousUser support
+  - High level API
+  - Heavely tested
+  - Django's admin integration
+  - Decorators
+
+Package: python-django-guardian-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}, libjs-underscore, python-sphinx, sphinx-common
+Description: per object permissions of django (documentation)
+ Implementation of per object permissions as authorization backend which is
+ supported since Django 1.2. It provides features as followings;
+  - Object permissions for Django_
+  - AnonymousUser support
+  - High level API
+  - Heavely tested
+  - Django's admin integration
+  - Decorators
+ .
+ This package contains the HTML documentation.
+

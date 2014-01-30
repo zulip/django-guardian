@@ -1,0 +1,13 @@
+Document: python-django-guardian
+Title: Debian django-guardian Manual
+Author: <insert document author here>
+Abstract: This documentation gives an introduction
+ to django-guardian and references.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-django-guardian-doc/html/index.html
+Files: /usr/share/doc/python-django-guardian-doc/html/*.html
+	/usr/share/doc/python-django-guardian-doc/html/api/*.html
+	/usr/share/doc/python-django-guardian-doc/html/develop/*.html
+	/usr/share/doc/python-django-guardian-doc/html/userguide/*.html

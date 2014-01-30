@@ -1,0 +1,12 @@
+Index: django-guardian-1.1.1/docs/conf.py
+===================================================================
+--- django-guardian-1.1.1.orig/docs/conf.py	2014-01-30 08:27:34.003702790 +0900
++++ django-guardian-1.1.1/docs/conf.py	2014-01-30 08:27:33.999702965 +0900
+@@ -17,6 +17,7 @@
+ # add these directories to sys.path here. If the directory is relative to the
+ # documentation root, use os.path.abspath to make it absolute, like shown here.
+ sys.path.insert(0, os.path.abspath('..'))
++print sys.path
+ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
+ os.environ['DJANGO_SETTINGS_MODULE'] = 'guardian.testsettings'
+ ANONYMOUS_USER_ID = -1 # Required by guardian
